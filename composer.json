@@ -1,0 +1,29 @@
+{
+  "name": "bavix/laravel-middleware-language",
+  "description": "Language Middleware for Laravel 5",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "language",
+    "middleware"
+  ],
+  "authors": [
+    {
+      "name": "Babichev Maxim",
+      "email": "info@babichev.net"
+    }
+  ],
+  "require": {
+    "bavix/laravel-helpers": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bavix\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
